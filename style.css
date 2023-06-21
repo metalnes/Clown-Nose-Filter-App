@@ -1,0 +1,27 @@
+body{
+    background-image:url("circus image.png") ;
+background-size: cover;
+background-position:center;
+}
+h2{
+    font-size:40px !important;
+    width: 60%;
+      
+}
+.btn{
+    font-size: 20px;
+
+}
+.btn:hover{
+    background-color: crimson;
+}
+canvas{
+    animation-name:animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animation1 {
+    from{box-shadow: 1px 1px 500px red;}
+       to{box-shadow: 1px 1px 500px rgb(0, 110, 255);}
+}
